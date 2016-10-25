@@ -1,24 +1,16 @@
-# README
+### Example of usage `mjml-ruby` with ActionMailer::Preview
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Install
 
-Things you may want to cover:
+1. `$ git clone https://github.com/kolybasov/actionmailer_preview_mjml_test`
+2. `$ cd actionmailer_preview_mjml_test`
+3. `$ bundle install`
 
-* Ruby version
+### Usage
 
-* System dependencies
+- Run `$ rails s` from the project folder
+- Open [http://localhost:3000/rails/mailers/welcome_mailer/hello](http://localhost:3000/rails/mailers/welcome_mailer/hello)
 
-* Configuration
+### Screenshot
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![mjml-ruby with ActionMailer::Preview](https://i.imgur.com/PSQAAHz.png)

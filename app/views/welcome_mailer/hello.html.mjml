@@ -1,0 +1,20 @@
+<mjml>
+  <mj-body>
+    <mj-container>
+      <mj-section padding-top="20px 10%">
+        <mj-text color="#000" font-size="30px">Hello, mjml-ruby!</mj-text>
+
+        <mj-button
+          align="left"
+          border="2px solid #F9A73E"
+          font-size="16px"
+          font-weight="400"
+          padding="0 68px 26px 68px"
+          font-family="'Open Sans', sans-serif"
+          background-color="#ffffff"
+          href="<%= @link %>"
+          color="#F9A73E">READ MORE</mj-button>      
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
